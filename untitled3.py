@@ -88,7 +88,7 @@ for i in range(4):
     img=load_image('test/s_d'+str(i)+'.png')
     print(pred(img))
 
-img=load_image('ample_data.png')
+img=load_image('sample_image.png')
 print(pred(img))
 
 
